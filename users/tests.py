@@ -23,7 +23,7 @@ class UserTestCase(TestCase):
 
     def test_login_user(self):
         credentials = {
-            'username': 'Alber Login',
+            'username': 'Nico Login',
             'password': '4ABXX4S9CuB3rgVM'
         }
 
@@ -34,9 +34,9 @@ class UserTestCase(TestCase):
     def test_register_user(self):
 
         data = {
-            'username': 'TestAlber',
-            'email': 'alber@cosasdedevs.com',
-            'password': '4ABXX4S9CuB3rgVM',
+            'username': 'Nicotest',
+            'email': 'nicolasbruno7777@gmai.com',
+            'password': 'sarmiento32',
             'password_confirmation': '4ABXX4S9CuB3rgVM',
         }
 
